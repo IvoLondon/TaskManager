@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Task Manager</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<body>
+
+
+<div class="js-container">
+	<input type="text" class="js-task-textbox" />
+    <input type="button" class="js-add-task-button" value="Add Task" />
+    
+    <div class="js-tasks-container"></div>
+    
+    <input type="button" class="js-complete-task-button" value="Complete Task" />
+    <input type="button" class="js-delete-task-button" value="Delete Task" />
+</div>
+
+<script src="EventDispatcher.js"></script>
+<script src="TaskModel.js"></script>
+<script src="TaskView.js"></script>
+<script src="TaskController.js"></script>
+<script src="App.js"></script>
+ 
+</body>
+</html>
